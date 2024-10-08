@@ -19,6 +19,19 @@ body {
     
 }
 
+body.new-style {
+    font-family: 'Montserrat', sans-serif;
+    background:
+    linear-gradient(rgba(113, 179, 139, 0.644),rgba(113, 179, 139, 0.644)),
+    url('https://images.squarespace-cdn.com/content/v1/5e8df9e1e236fa1a772f6e1e/3753cf72-5d6f-4059-88cc-961218a2d61e/1.jpg');
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen se mantenga fija al hacer scroll */
+
+    
+}
+
 /* Estilo de los titulos de las paginas*/
 
 .section-title {
@@ -182,6 +195,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    padding-top: 25px;
 }
 .card {
     border: none;
