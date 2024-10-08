@@ -67,7 +67,7 @@
   <!-- Derechos reservados -->
   <div class="text-center p-3 bg-dark text-light mt-3">
     <p class="mb-0">
-      &copy; <span id="current-year"></span> Sentirse Bien - Todos los derechos reservados.
+      &copy; <span id="current-year"></span> Sentirse Bien - Todos los derechos reservados.       Desarrollado por Fullmetal Coders. <br> Alcaraz Mariel, Armoa Fabrizio, Limberti Franco
     </p>
   </div>
 </footer>

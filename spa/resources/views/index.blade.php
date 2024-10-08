@@ -13,7 +13,7 @@
     @include('partials.header')
 
     <main class="container py-5">
-        <h1 class="section-title" data-aos="fade-down">Galería de Sentirse Bien</h1>
+        <h1 class="section-title" data-aos="fade-down">Te Damos la Bienvenida</h1>
 
         <div id="mainCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -36,7 +36,7 @@
                 <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
-
+        <h2 class="text-center mb-4, section-title">Conoce Nuestros Servicios</h2>
         <div class="row gallery-grid">
             <div class="col-md-5 col-sm-6" data-aos="fade-up"><img src="img/Montañas.jpg" alt="Tratamiento 1" class="img-fluid"></div>
             <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100"><img src="img/flores_rosadas.jpg" alt="Tratamiento 2" class="img-fluid"></div>
