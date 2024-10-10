@@ -10,7 +10,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->middleware('auth');
+
 
 Route::get('/quienes-somos', function(){
     return view('quienes_somos');
